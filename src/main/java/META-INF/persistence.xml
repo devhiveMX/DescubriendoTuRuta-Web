@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="rutamx-web" transaction-type="RESOURCE_LOCAL">
+	    <class>mx.devhive.rutamx.entities.CasetasCombinadas</class>
+		<class>mx.devhive.rutamx.entities.CasetasCombinadasId</class>
+		<class>mx.devhive.rutamx.entities.CasetasSencillas</class>
+		<class>mx.devhive.rutamx.entities.CasetasSencillasId</class>
+		<class>mx.devhive.rutamx.entities.CasetasSencillasN</class>
+		<class>mx.devhive.rutamx.entities.CasetasSencillasNId</class>
+		<class>mx.devhive.rutamx.entities.CostosCasetasCombinadas</class>
+		<class>mx.devhive.rutamx.entities.CostosCasetasCombinadasId</class>
+		<class>mx.devhive.rutamx.entities.RuleStep1</class>
+		<class>mx.devhive.rutamx.entities.RuleStep1Id</class>
+		<class>mx.devhive.rutamx.entities.SpatialRefSys</class>
+		<class>mx.devhive.rutamx.entities.TtrAodAmbitoBusqueda</class>
+		<class>mx.devhive.rutamx.entities.TtrAodAmbitosRegla</class>
+		<class>mx.devhive.rutamx.entities.TtrAodAmbitosReglaId</class>
+		<class>mx.devhive.rutamx.entities.TtrAodJerarquiasAmbito</class>
+		<class>mx.devhive.rutamx.entities.TtrAodJerarquiasAmbitoId</class>
+		<class>mx.devhive.rutamx.entities.TtrAodReglasBusqueda</class>
+		<class>mx.devhive.rutamx.entities.TtrAodSearchesCache</class>
+		<class>mx.devhive.rutamx.entities.TtrAodSearchesCacheId</class>
+		<class>mx.devhive.rutamx.entities.TtrAodTipoGeometrias</class>
+		<class>mx.devhive.rutamx.entities.TtrApiKey</class>
+		<class>mx.devhive.rutamx.entities.TtrContenido</class>
+		<class>mx.devhive.rutamx.entities.TtrCostosCaseta</class>
+		<class>mx.devhive.rutamx.entities.TtrCostosCasetaCombinada</class>
+		<class>mx.devhive.rutamx.entities.TtrEstacionesClima</class>
+		<class>mx.devhive.rutamx.entities.TtrEstacionesClimaId</class>
+		<class>mx.devhive.rutamx.entities.TtrIncidencia</class>
+		<class>mx.devhive.rutamx.entities.TtrMetodosCasetas</class>
+		<class>mx.devhive.rutamx.entities.TtrMetodosCasetasCombinada</class>
+		<class>mx.devhive.rutamx.entities.TtrMetodosPago</class>
+		<class>mx.devhive.rutamx.entities.TtrPermisos</class>
+		<class>mx.devhive.rutamx.entities.TtrRelEdoRuta</class>
+		<class>mx.devhive.rutamx.entities.TtrResistencia</class>
+		<class>mx.devhive.rutamx.entities.TtrResistenciaId</class>
+		<class>mx.devhive.rutamx.entities.TtrRoles</class>
+		<class>mx.devhive.rutamx.entities.TtrRoutesCache</class>
+		<class>mx.devhive.rutamx.entities.TtrRoutesCacheId</class>
+		<class>mx.devhive.rutamx.entities.TtrRoutesCacheTmp</class>
+		<class>mx.devhive.rutamx.entities.TtrRoutesCacheTmpId</class>
+		<class>mx.devhive.rutamx.entities.TtrRoutesRecord</class>
+		<class>mx.devhive.rutamx.entities.TtrStatusAlertas</class>
+		<class>mx.devhive.rutamx.entities.TtrSubtiposDeAlertas</class>
+		<class>mx.devhive.rutamx.entities.TtrSubTiposVehiculo</class>
+		<class>mx.devhive.rutamx.entities.TtrTipoCondicion</class>
+		<class>mx.devhive.rutamx.entities.TtrTipoIncidencia</class>
+		<class>mx.devhive.rutamx.entities.TtrTiposCaseta</class>
+		<class>mx.devhive.rutamx.entities.TtrTiposCombustible</class>
+		<class>mx.devhive.rutamx.entities.TtrTiposDeAlertas</class>
+		<class>mx.devhive.rutamx.entities.TtrTiposDeImpacto</class>
+		<class>mx.devhive.rutamx.entities.TtrTiposDeMarcadores</class>
+		<class>mx.devhive.rutamx.entities.TtrTiposDePrioridad</class>
+		<class>mx.devhive.rutamx.entities.TtrTiposVehiculo</class>
+		<class>mx.devhive.rutamx.entities.TtrUsuarios</class>
+		<class>mx.devhive.rutamx.entities.TtrVariables</class>
+    	<properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+      		<property name="hibernate.show_sql" value="true" />
+      		<property name="jboss.as.jpa.managed" value="false"/>
+    	</properties>
+	</persistence-unit>
+</persistence>

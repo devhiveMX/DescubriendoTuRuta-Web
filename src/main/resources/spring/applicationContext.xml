@@ -14,10 +14,12 @@
 	http://www.springframework.org/schema/util 
 	http://www.springframework.org/schema/util/spring-util-3.0.xsd">
 	
-	<context:property-placeholder location="file:/opt/rutamx-apikeys.properties" order="0" ignore-unresolvable="true" />
+	<context:property-placeholder location="file:C:/rutamx-apikeys.properties" order="0" ignore-unresolvable="true" />
 	<context:property-placeholder location="classpath:mappir.properties" order="1" ignore-unresolvable="true" />
 	<context:property-placeholder location="classpath:foursquare.properties" order="2" ignore-unresolvable="true" />
 	<context:property-placeholder location="classpath:googleplaces.properties" order="3" ignore-unresolvable="true" />
+	
+	<import resource="spring-repositories.xml" />
 	
 	<context:component-scan base-package="mx.devhive.rutamx.rest.resource" />
 	
